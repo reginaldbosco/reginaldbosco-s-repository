@@ -1,4 +1,7 @@
-/*ffmpeg -f image2 -framerate 1 -i rp-%dof17.png -framerate 1 rp-17.mp4*/
+/*
+Use this command to make an mp4 video from the images using ffmpeg.
+ffmpeg -f image2 -framerate 1 -i rp-%dof17.png -framerate 1 rp-17.mp4
+*/
 int n = 7; // a reptend prime
 int maxNum = 10;
 void setup() {

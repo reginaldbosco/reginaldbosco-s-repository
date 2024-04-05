@@ -13,7 +13,7 @@ void draw() {
   float angleStep = TWO_PI / n; // angle between each dot
 
   // Draw the dots and lines
-  for (int i = 0; i < n; i++) {
+  for (int i = 1; i < n; i++) {
     float angle = i * angleStep;
     float x = radius * cos(angle);
     float y = radius * sin(angle);
